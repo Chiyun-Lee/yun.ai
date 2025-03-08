@@ -1,12 +1,18 @@
 {
     "nodes": [
-      {"id": "A", "label": "Task A"},
-      {"id": "B", "label": "Task B"},
-      {"id": "C", "label": "Task C"}
+      {"id": "AA", "label": "Find sample video"},
+      {"id": "AB", "label": "Choose and run pose-matching algorithm"},
+      {"id": "AC", "label": "Setup visualisation of pose-matching data"},
+      {"id": "AD", "label": "Compute movement metrics"},
+      {"id": "AE", "label": "Music sentiment analysis"},
+      {"id": "AF", "label": "Scoring sheet analysis"},
+      {"id": "AG", "label": "Pose match dancers' torso"}
     ],
     "edges": [
-      {"source": "A", "target": "B"},
-      {"source": "B", "target": "C"}
+      {"source": "AA", "target": "AB"},
+      {"source": "AB", "target": "AC"},
+      {"source": "AC", "target": "AD"},
+      {"source": "AC", "target": "AG"}
     ]
   }
   
