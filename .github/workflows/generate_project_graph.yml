@@ -1,4 +1,4 @@
-name: Generate Graph
+name: Generate Project Graph
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
         run: pip install networkx matplotlib
 
       - name: Generate graph
-        run: python assets.generate_project_graph.py
+        run: python assets/generate_project_graph.py
 
       - name: Commit updated graph
         run: |
