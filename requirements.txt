@@ -4,7 +4,7 @@ ipykernel==6.29.5
 matplotlib==3.10.1
 mediapipe==0.10.21
 networkx==3.4.2
-numpy==2.2.3
+numpy
 opencv-python==4.11.0.86
 pandas==2.2.3
 yt-dlp==2025.2.19
