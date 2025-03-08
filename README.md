@@ -2,9 +2,13 @@
 
 ![Project Graph](project_graph.png)
 
+![Pose](assets/pose.png)
+
 ---
 
 Project tracking data `assets/project_graph.json` is turned into a graph by 
+
+- Uncut 60 FPS footage?
 
 ---
 
